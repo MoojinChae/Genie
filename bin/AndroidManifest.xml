@@ -21,9 +21,22 @@
             android:name=".SplashActivity"
             android:label="@string/title_activity_splash" >
             <intent-filter>
-	            <action android:name="android.intent.action.MAIN" />
-	            <category android:name="android.intent.category.LAUNCHER" />
-	        </intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateWishActivity"
+            android:label="@string/title_activity_create_wish" >
+        </activity>
+        <activity
+            android:name=".DetailWishActivity"
+            android:label="@string/title_activity_detail_wish" >
+        </activity>
+        <activity
+            android:name=".MyWishesActivity"
+            android:label="@string/title_activity_my_wishes" >
         </activity>
     </application>
 
